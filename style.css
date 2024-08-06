@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column; /* Change direction to column */
+    align-items: center; /* Center align items horizontally */
+    gap: 20px;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s ease;
+    width: 100%; /* Make buttons take full width of container */
+    max-width: 300px; /* Limit button width */
+}
+
+.whatsapp-button {
+    background-color: black; /* WhatsApp green */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+    background-color: #1EBEA5; /* Darker green */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.price-list-button {
+    background-color: black; /* Blue color for Price List */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.price-list-button:hover {
+    background-color: #0056b3; /* Darker blue */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+.reviews {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.reviews h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.review {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.reviewer-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.reviewer-info p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+.review-text {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
